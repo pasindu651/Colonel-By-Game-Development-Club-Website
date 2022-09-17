@@ -1,4 +1,4 @@
 <h1 align="center">Game Development and Design Webiste</h1>
-#Designed by [Pasindu](www.google.com) & [Naman](www.google.com)
+Designed by @pasindu and @naman
 
 ![](images/logo.png)
