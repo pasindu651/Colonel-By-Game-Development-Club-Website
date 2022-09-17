@@ -3,4 +3,4 @@
 
 
 
-<img align="center" src="images/logo.png" alt="logo" width="400"/>
+<img src="images/logo.png" align="right" alt="logo" width="400"/>
