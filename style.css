@@ -1,0 +1,192 @@
+:root {
+  /* Color styles */
+  --primary-dark: #2698fc;
+  --primary-light: #25bdff;
+  --orange-light: #fea95a;
+  --orange-dark: #f28960;
+  --yellow: #ffcf44;
+  --light-grey: #878787;
+  --ultra-light-grey: #c3c3c3;
+  --dark-grey: #272727;
+
+  --testing-color: #fb77c000;
+  /*Font weight*/
+  --bold: 700;
+  --semi-bold: 600;
+  --medium: 500;
+  --regular: 400;
+  --light: 300;
+
+  /*Font size*/
+  --h1: 64px;
+  --h2: 48px;
+  --h3: 42px;
+  --h4: 32px;
+
+  --p-regular: 16px;
+  --p-medium: 18px;
+  --p-light: 13px;
+}
+
+/*Body and container styles*/
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  background-color: #27282c;
+}
+
+.container {
+  line-height: 49px;
+}
+
+/*Button styles*/
+.btn-primary {
+  background-color: var(--primary-dark);
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-light);
+}
+
+.btn-primary:focus {
+  background-color: var(--primary-light);
+}
+
+.btn-outline-secondary {
+  color: var(--orange-dark);
+  border-color: var(--orange-dark);
+}
+.btn-outline-secondary:hover {
+  color: var(--orange-light);
+  border-color: var(--orange-light);
+}
+.btn-outline-secondary:focus {
+  color: var(--orange-light);
+  border-color: grey;
+}
+
+.btn-floating i {
+  color: var(--light-grey);
+}
+
+.btn-floating :hover {
+  color: var(--dark-grey);
+}
+
+.btn-floating :focus {
+  color: var(--dark-grey);
+}
+
+
+/*Text styles*/
+p a:link {
+  color: var(--primary-dark);
+}
+
+p a:hover {
+  color: var(--primary-light);
+}
+
+p {
+  font-weight: var(--regular);
+  font-size: var(--p-regular);
+  color: var(--ultra-light-grey);
+}
+
+h2 {
+  font-weight: var(--bold);
+  font-size: var(--h1);
+background: rgb(242,137,96);
+background: linear-gradient(90deg, rgba(242,137,96,1) 0%, rgba(255,240,98,1) 48%, rgba(0,212,255,1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h4 {
+  color: white;
+}
+
+.b {
+  font-weight: var(--semi-bold);
+}
+
+@media only screen and (max-width: 600px) {
+  .gddc-header, .execs-header, .about-header, .contact-header {font-size: 50px;}
+
+}
+
+
+/*Image styles*/
+img {
+  max-width: 100%;
+}
+
+/*Form styles*/
+form { 
+  line-height: 25px;
+}
+
+label {
+    color: var(--light-grey) !important;
+}
+
+textarea, input {
+  color: white !important;
+}
+
+.message {
+  width: 100%;
+  position: relative;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.message .success {
+  color: green;
+  position: absolute;
+  animation: buttons .3s linear;
+  display: none;
+}
+
+@keyframes buttons {
+  0% {
+    transform: scale(0.1);
+  }
+  50% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/*Footer styles*/
+footer text {
+  color: var(--light-grey);
+}
+
+/*Card styles*/
+.card {
+  background-color: #3b3b3b;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.card-text {
+  font-size: 12px;
+  line-height: 25px;
+}
+
+options: {  
+    responsive: true,
+    maintainAspectRatio: false
+}
+
+
