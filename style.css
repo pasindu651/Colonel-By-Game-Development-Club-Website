@@ -36,6 +36,9 @@ html, body {
   background-color: #27282c;
 }
 
+.container {
+  line-height: 5px;
+}
 
 /*Button styles*/
 .btn-primary {
