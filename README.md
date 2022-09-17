@@ -5,6 +5,6 @@
 
 ## Tools 🔧:
 * HTML and CSS for front-end design
-* Bootstrap and Material Design for elegant, responsive design
+* Bootstrap, Material Design, and AOS for elegant, responsive design
 * Javascript and Firebase for back-end
 
